@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edit_txt_margin_verticle">5dp</dimen>
+    <dimen name="edit_txt_margin_horizontal">50dp</dimen>
+    <dimen name="register_vertical_paddinng">50dp</dimen>
+    <dimen name="edit_txt_innerpadding">10dp</dimen>
+    <dimen name="text_box_text_size">22dp</dimen>
+
+    <dimen name="btn_txt_size">20dp</dimen>
+    <dimen name="btn_margin_vertical">5dp</dimen>
+    <dimen name="btn_margin_horizontal">50dp</dimen>
+    <dimen name="btn_inner_padding">10dp</dimen>
+
+    <dimen name="gender_selection_margin_horizontal">70dp</dimen>
+    <dimen name="radio_button_margin">10dp</dimen>
+
+    <dimen name="users_layout_padding">5dp</dimen>
+    <dimen name="users_cardview_elevation">35dp</dimen>
+    <dimen name="users_cardview_padding">5dp</dimen>
+    <dimen name="users_cardview_radius">15dp</dimen>
+    <dimen name="users_linear_height">85dp</dimen>
+
+    <dimen name="circular_image_width">60dp</dimen>
+    <dimen name="circular_image_height">60dp</dimen>
+    <dimen name="circular_image_padding">5dp</dimen>
+
+    <dimen name="user_name_textsize">23dp</dimen>
+    <dimen name="usern_name_margin">2dp</dimen>
+
+    <dimen name="user_last_message_textsize">15dp</dimen>
+    <dimen name="usern_last_message_margin">2dp</dimen>
+
+
+    <dimen name="chat_sender_text_size">15dp</dimen>
+
+
+
+
+
+
+
+
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="space_min">4dp</dimen>
+    <dimen name="space_small">8dp</dimen>
+    <dimen name="space_avg">16dp</dimen>
+    <dimen name="space_big">32dp</dimen>
+
+    <dimen name="padding_min">4dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_avg">16dp</dimen>
+    <dimen name="padding_big">32dp</dimen>
+
+    <dimen name="margin_min">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_avg">16dp</dimen>
+    <dimen name="margin_big">32dp</dimen>
+    <dimen name="margin_huge">64dp</dimen>
+
+    <dimen name="user_icon_width">36dp</dimen>
+    <dimen name="user_icon_height">36dp</dimen>
+
+    <dimen name="card_corner_radius">4dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/chat_other_layout"
+    android:gravity="right"
+    android:padding="@dimen/users_layout_padding">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/mycardview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/mustard_yellow"
+        app:cardCornerRadius="@dimen/users_cardview_radius"
+        app:cardPreventCornerOverlap="true"
+        android:elevation="@dimen/users_cardview_elevation"
+        android:padding="@dimen/users_cardview_padding">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/margin_small">
+                <TextView
+                    android:id="@+id/other_sender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15dp"
+                    android:layout_margin="@dimen/usern_name_margin"
+                    android:textStyle="bold"
+                    android:text="Example Name"/>
+                <TextView
+                    android:id="@+id/other_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/user_last_message_textsize"
+                    android:layout_margin="@dimen/usern_last_message_margin"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/other_sender_image"
+        android:layout_width="@dimen/circular_image_width"
+        android:layout_height="@dimen/circular_image_height"
+        android:src="@drawable/male_50"
+        android:padding="@dimen/circular_image_padding"
+        android:layout_gravity="center_vertical"
+        app:civ_circle_background_color="@color/mustard_yellow"
+        android:layout_marginHorizontal="5dp"/>
+</LinearLayout>
